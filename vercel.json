@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "Final_responsive.ipynb",
+      "src": "Final_responsive.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "Final_responsive.ipynb"
+      "dest": "Final_responsive.py"
     }
   ]
 }
