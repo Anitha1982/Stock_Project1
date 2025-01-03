@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "Final_responsive.py",
+      "src": "app.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "Final_responsive.py"
+      "dest": "app.py"
     }
   ]
 }
